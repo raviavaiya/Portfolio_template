@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
             } animate-fade-in-up`}>
               AI/ML
               <span className="block bg-gradient-to-r from-blue-500 via-purple-500 to-green-500 bg-clip-text text-transparent">
-                Developer
+               Developer
               </span>
             </h1>
             <p className={`text-xl md:text-2xl ${
@@ -62,7 +62,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
 
           <div className="flex justify-center space-x-6 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
             <a
-              href="https://github.com"
+              href="https://github.com/raviavaiya"
               className={`p-3 rounded-full transition-all duration-200 hover:shadow-lg transform hover:scale-110 ${
                 darkMode ? 'bg-gray-800 text-gray-300 hover:bg-gray-700' : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
@@ -70,7 +70,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/raviavaiya"
               className={`p-3 rounded-full transition-all duration-200 hover:shadow-lg transform hover:scale-110 ${
                 darkMode ? 'bg-gray-800 text-gray-300 hover:bg-gray-700' : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
@@ -78,7 +78,7 @@ const Hero: React.FC<HeroProps> = ({ darkMode }) => {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:raviavaiya03.com"
               className={`p-3 rounded-full transition-all duration-200 hover:shadow-lg transform hover:scale-110 ${
                 darkMode ? 'bg-gray-800 text-gray-300 hover:bg-gray-700' : 'bg-white text-gray-700 hover:bg-gray-50'
               }`}
